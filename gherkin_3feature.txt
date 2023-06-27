@@ -1,0 +1,11 @@
+Feature:Registro de notificaciones
+	Como usuario de user quiero realizar mis propias notificaciones asia mi perfil al registrarmey que tenga una facilidad de manejo
+Scenario:Usuario resivir notificaciones.
+	Dado que el "<new user>" se encuentra en el apartado de "<my_safe_routes>"
+	Cuando le da al botón "<new_routes>"
+	Entonces  aparecerá un "<RecetBox>" donde el "<new_user>" donde llegara un mensaje  logrando acceder a la plataforma mas rapido segun la opcion dadaseleccionar su "<most_adaptable_route>"de acuerdo al
+    "<location>"que se desea dirigir.
+Ejemplos_
+|new_user|my_safe_routes|new_routes|TableBox|new_user|most_adaptable_route
+|cliente 1, Mis torificaciones seguras,Nueva rutaXXXXX, notificaciones más adaptableXXXXXX, UbicacionXXXXXXXXX
+
