@@ -1,0 +1,6 @@
+future:solicita una receta de comida de rutas personalizadas
+como usuario de Save_recipe quiero realizar unas solicitudes de recetas de las diversas fuentes que me brinda y una de las opciones es mas confible y considerable al tomarla
+Scenario: usuario desea realizar sus propias solicitudes
+dada qu el "<new user>" se encontra en la opcion de "<my_safe_routes>"
+cuando  le de el bot "<new_routes>"
+entonces aparecera un "<RecetBox>" donde el "<new_routes>" puede interactuar con el mapa para seleccionar su "<most_adaptable_route>" de acuerdo al 
