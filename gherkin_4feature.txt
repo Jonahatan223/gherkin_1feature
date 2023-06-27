@@ -1,0 +1,8 @@
+Feature: publicar resetas 
+	Como usuario de user quiero que la app sea de suma confianza al brindarle mis 
+    resetas (como platicos saludables y recetas) para usar la aplicación sin ninguna preocupación.
+Scenario: Usuario quiere colocar compartir mis recentas correctamente sin preocupaciones.
+	Dado que el "<new_user>" desea utilizar la app sin temor a que puedan acceder a su "<user_information>" 
+    Y visualice el apartado de "<user_privacy>"
+	Cuando realice la publicacion correspondiente de las recetas  serán totalmente publicos dentro de la aplicación.
+	Entonces no tendrá ningún problema y me den algun veneficio al hacerlo "<new_user>" que será visualizada en un "<TableBox>".
